@@ -1,0 +1,12 @@
+{
+  "type": "bclib:smithing",
+  "input": {
+    "item": "betterend:terminite_ingot"
+  },
+  "result": {
+    "item": "betterend:terminite_forged_plate"
+  },
+  "anvilLevel": 3,
+  "toolLevel": 3,
+  "damage": 3
+}

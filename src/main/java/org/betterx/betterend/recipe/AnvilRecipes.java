@@ -25,46 +25,47 @@ public class AnvilRecipes {
                         .build();
 
         int anvilLevel = EndToolMaterial.AETERNIUM.getLevel();
+        int toolLevel = EndToolMaterial.AETERNIUM.getLevel();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_axe_head"), EndItems.AETERNIUM_AXE_HEAD)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
-                        .setToolLevel(anvilLevel)
+                        .setToolLevel(toolLevel)
                         .setDamage(6)
                         .build();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_pickaxe_head"), EndItems.AETERNIUM_PICKAXE_HEAD)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
-                        .setToolLevel(anvilLevel)
+                        .setToolLevel(toolLevel)
                         .setDamage(6)
                         .build();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_shovel_head"), EndItems.AETERNIUM_SHOVEL_HEAD)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
-                        .setToolLevel(anvilLevel)
+                        .setToolLevel(toolLevel)
                         .setDamage(6)
                         .build();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_hoe_head"), EndItems.AETERNIUM_HOE_HEAD)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
-                        .setToolLevel(anvilLevel)
+                        .setToolLevel(toolLevel)
                         .setDamage(6)
                         .build();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_hammer_head"), EndItems.AETERNIUM_HAMMER_HEAD)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
-                        .setToolLevel(EndToolMaterial.THALLASIUM.getLevel())
+                        .setToolLevel(toolLevel)
                         .setDamage(6)
                         .build();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_sword_blade"), EndItems.AETERNIUM_SWORD_BLADE)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
-                        .setToolLevel(anvilLevel)
+                        .setToolLevel(toolLevel)
                         .setDamage(6)
                         .build();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_forged_plate"), EndItems.AETERNIUM_FORGED_PLATE)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
-                        .setToolLevel(anvilLevel)
+                        .setToolLevel(toolLevel)
                         .setDamage(6)
                         .build();
     }

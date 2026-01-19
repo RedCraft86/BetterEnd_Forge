@@ -1,0 +1,12 @@
+{
+  "type": "bclib:smithing",
+  "anvilLevel": 2,
+  "damage": 5,
+  "input": {
+    "item": "minecraft:ender_pearl"
+  },
+  "result": {
+    "item": "betterend:ender_dust"
+  },
+  "toolLevel": 4
+}

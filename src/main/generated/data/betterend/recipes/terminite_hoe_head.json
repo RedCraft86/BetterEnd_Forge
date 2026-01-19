@@ -1,0 +1,13 @@
+{
+  "type": "bclib:smithing",
+  "anvilLevel": 3,
+  "damage": 3,
+  "input": {
+    "item": "betterend:terminite_ingot"
+  },
+  "inputCount": 2,
+  "result": {
+    "item": "betterend:terminite_hoe_head"
+  },
+  "toolLevel": 3
+}

@@ -1,0 +1,12 @@
+{
+  "type": "bclib:smithing",
+  "anvilLevel": 5,
+  "damage": 6,
+  "input": {
+    "item": "betterend:aeternium_ingot"
+  },
+  "result": {
+    "item": "betterend:aeternium_sword_blade"
+  },
+  "toolLevel": 5
+}
