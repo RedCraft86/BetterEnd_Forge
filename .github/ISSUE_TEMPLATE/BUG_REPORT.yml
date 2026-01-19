@@ -28,7 +28,7 @@ body:
     attributes:
       label: BetterEnd (Forge)
       description: What version of BetterEnd (Forge) are you running?
-      placeholder: 4.0.x
+      placeholder: 20.0.*
     validations:
       required: true
 
@@ -37,7 +37,7 @@ body:
     attributes:
       label: BCLib (Forge)
       description: What version of BCLib (Forge) are you running?
-      placeholder: 3.0.x
+      placeholder: 20.0.*
     validations:
       required: true
 
