@@ -13,9 +13,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum EndArmorMaterial implements ArmorMaterial {
-    THALLASIUM("thallasium", 17, new int[]{1, 4, 5, 2}, 12, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+    THALLASIUM("thallasium", 15, new int[]{1, 4, 5, 2}, 17, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.of(EndBlocks.THALLASIUM.ingot);
-    }), TERMINITE("terminite", 26, new int[]{3, 6, 7, 3}, 14, SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.05F, () -> {
+    }), TERMINITE("terminite", 33, new int[]{3, 6, 7, 3}, 26, SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.05F, () -> {
         return Ingredient.of(EndBlocks.TERMINITE.ingot);
     }), AETERNIUM("aeternium", 40, new int[]{4, 7, 9, 4}, 18, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5F, 0.2F, () -> {
         return Ingredient.of(EndItems.AETERNIUM_INGOT);

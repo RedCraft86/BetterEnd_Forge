@@ -247,20 +247,26 @@ public class MetalMaterial {
                 new EndHammerItem(material, 5.0F, -3.2F, 0.3D, itemSettings)
         );
 
-        forgedPlate = EndItems.registerEndItem(name + "_forged_plate");
+        forgedPlate = EndItems.registerEndItem(
+                name + "_forged_plate",
+                new ModelProviderItem(EndItems.makeEndItemSettings())
+        );
         helmet = EndItems.registerEndItem(
                 name + "_helmet",
-                new EndArmorItem(armor, ArmorItem.Type.HELMET, itemSettings)
+                new EndArmorItem(armor, ArmorItem.Type.HELMET, EndItems.makeEndItemSettings())
         );
         chestplate = EndItems.registerEndItem(
                 name + "_chestplate",
-                new EndArmorItem(armor, ArmorItem.Type.CHESTPLATE, itemSettings)
+                new EndArmorItem(armor, ArmorItem.Type.CHESTPLATE, EndItems.makeEndItemSettings())
         );
         leggings = EndItems.registerEndItem(
                 name + "_leggings",
-                new EndArmorItem(armor, ArmorItem.Type.LEGGINGS, itemSettings)
+                new EndArmorItem(armor, ArmorItem.Type.LEGGINGS, EndItems.makeEndItemSettings())
         );
-        boots = EndItems.registerEndItem(name + "_boots", new EndArmorItem(armor, ArmorItem.Type.BOOTS, itemSettings));
+        boots = EndItems.registerEndItem(
+                name + "_boots",
+                new EndArmorItem(armor, ArmorItem.Type.BOOTS, EndItems.makeEndItemSettings())
+        );
 
         anvilBlock = EndBlocks.registerBlock(
                 name + "_anvil",
