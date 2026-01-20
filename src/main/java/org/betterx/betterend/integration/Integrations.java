@@ -24,8 +24,6 @@ public class Integrations {
 
     public static void init() {
         if (hasGuideBook()) {
-            GuideBookItem.register();
-
             PlayerAdvancementsCallback.PLAYER_ADVANCEMENT_COMPLETE.register((player, advancement, criterionName) -> {
                 ResourceLocation advId = new ResourceLocation("minecraft:end/enter_end_gateway");
                 if (advId.equals(advancement.getId())) {

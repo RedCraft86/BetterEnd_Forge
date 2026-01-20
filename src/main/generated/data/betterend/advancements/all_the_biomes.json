@@ -420,49 +420,64 @@
   },
   "requirements": [
     [
-      "betterend:blossoming_spires"
-    ],
-    [
-      "betterend:dust_wastelands"
-    ],
-    [
-      "betterend:lantern_woods"
-    ],
-    [
       "betterend:sulphur_springs"
-    ],
-    [
-      "betterend:empty_end_cave"
     ],
     [
       "betterend:lush_smaragdant_cave"
     ],
     [
-      "betterend:umbrella_jungle"
-    ],
-    [
-      "betterend:empty_aurora_cave"
-    ],
-    [
-      "betterend:empty_smaragdant_cave"
-    ],
-    [
-      "betterend:neon_oasis"
-    ],
-    [
-      "betterend:foggy_mushroomland"
+      "betterend:dust_wastelands"
     ],
     [
       "betterend:ice_starfield"
     ],
     [
-      "betterend:shadow_forest"
+      "betterend:umbra_valley"
+    ],
+    [
+      "betterend:crystal_mountains"
+    ],
+    [
+      "betterend:jade_cave"
+    ],
+    [
+      "betterend:umbrella_jungle"
+    ],
+    [
+      "betterend:dry_shrubland"
+    ],
+    [
+      "betterend:blossoming_spires"
+    ],
+    [
+      "betterend:foggy_mushroomland"
+    ],
+    [
+      "betterend:empty_end_cave"
+    ],
+    [
+      "betterend:glowing_grasslands"
+    ],
+    [
+      "betterend:neon_oasis"
+    ],
+    [
+      "betterend:empty_smaragdant_cave"
+    ],
+    [
+      "betterend:empty_aurora_cave"
+    ],
+    [
+      "betterend:dragon_graveyards"
+    ],
+    [
+      "betterend:painted_mountains"
+    ],
+    [
+      "betterend:lantern_woods"
     ],
     [
       "betterend:megalake_grove"
-    ],
-    [
-      "betterend:amber_land"
     ],
     [
       "betterend:megalake"
@@ -471,28 +486,13 @@
       "betterend:lush_aurora_cave"
     ],
     [
+      "betterend:amber_land"
+    ],
+    [
       "betterend:chorus_forest"
     ],
     [
-      "betterend:crystal_mountains"
-    ],
-    [
-      "betterend:dry_shrubland"
-    ],
-    [
-      "betterend:painted_mountains"
-    ],
-    [
-      "betterend:glowing_grasslands"
-    ],
-    [
-      "betterend:umbra_valley"
-    ],
-    [
-      "betterend:jade_cave"
-    ],
-    [
-      "betterend:dragon_graveyards"
+      "betterend:shadow_forest"
     ]
   ],
   "rewards": {

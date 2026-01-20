@@ -17,6 +17,7 @@ import net.minecraft.tags.DamageTypeTags;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.MobSpawnType;
@@ -168,9 +169,12 @@ public class EndFishEntity extends AbstractSchoolingFish {
     protected void dropFromLootTable(DamageSource source, boolean causedByPlayer) {
         Item item = source.is(DamageTypeTags.IS_FIRE) ? EndItems.END_FISH_COOKED : EndItems.END_FISH_RAW;
         if (causedByPlayer) {
-            ItemStack handItem = ((Player) source.getEntity()).getItemInHand(InteractionHand.MAIN_HAND);
-            if (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.FIRE_ASPECT, handItem) > 0) {
-                item = EndItems.END_FISH_COOKED;
+            Entity sourceEntity = source.getEntity();
+            if (sourceEntity instanceof Player player) {
+                ItemStack handItem = player.getItemInHand(InteractionHand.MAIN_HAND);
+                if (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.FIRE_ASPECT, handItem) > 0) {
+                    item = EndItems.END_FISH_COOKED;
+                }
             }
         }
         ItemEntity drop = new ItemEntity(level(), getX(), getY(), getZ(), new ItemStack(item));
