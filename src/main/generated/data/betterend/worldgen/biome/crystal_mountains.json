@@ -44,7 +44,8 @@
     [],
     [],
     [
-      "betterend:crystal_grass"
+      "betterend:crystal_grass",
+      "betterend:crystal_moss_cover"
     ]
   ],
   "has_precipitation": false,

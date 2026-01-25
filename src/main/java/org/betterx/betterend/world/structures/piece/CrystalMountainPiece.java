@@ -1,7 +1,6 @@
 package org.betterx.betterend.world.structures.piece;
 
 import org.betterx.bclib.util.MHelper;
-import org.betterx.betterend.blocks.CrystalMossCoverBlock;
 import org.betterx.betterend.registry.EndBlocks;
 import org.betterx.betterend.registry.EndStructures;
 import org.betterx.betterend.util.GlobalState;
@@ -10,7 +9,6 @@ import org.betterx.worlds.together.tag.v3.CommonBlockTags;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.BlockPos.MutableBlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.core.Holder;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.Mth;
@@ -99,31 +97,13 @@ public class CrystalMountainPiece extends MountainPiece {
                             int cover = maxYI - 1;
 
                             final double noise = SplitNoiseCondition.DEFAULT.getNoise(px, pz);
-                            boolean needCover = noise > 0;
-                            boolean needSurroundCover = Math.abs(noise) < 0.2;
+                            boolean needCover = noise > -0.2;
                             for (int y = minY - 1; y < maxYI; y++) {
                                 pos.setY(y);
                                 if (needCover && y == cover) {
                                     chunk.setBlockState(pos, top, false);
                                 } else {
                                     chunk.setBlockState(pos, Blocks.END_STONE.defaultBlockState(), false);
-                                }
-                                if (needSurroundCover && chunk.getBlockState(pos.above()).is(Blocks.AIR)) {
-                                    BlockState coverState = EndBlocks.CRYSTAL_MOSS_COVER
-                                            .defaultBlockState();
-                                    BlockPos above = pos.above();
-                                    boolean didChange = false;
-                                    for (Direction dir : Direction.values()) {
-                                        if (chunk.getBlockState(above.relative(dir)).is(CommonBlockTags.END_STONES)) {
-                                            coverState = coverState.setValue(
-                                                    CrystalMossCoverBlock.getFaceProperty(dir),
-                                                    true
-                                            );
-                                            didChange = true;
-                                        }
-                                    }
-                                    if (didChange) chunk.setBlockState(above, coverState, false);
-
                                 }
                             }
                         }

@@ -1,0 +1,22 @@
+{
+  "feature": "betterend:crystal_moss_cover",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_inclusive": 256,
+          "min_inclusive": 16
+        }
+      }
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 2
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

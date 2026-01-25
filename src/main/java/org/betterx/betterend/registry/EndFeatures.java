@@ -26,16 +26,20 @@ import org.betterx.betterend.world.features.trees.*;
 import org.betterx.worlds.together.world.event.WorldBootstrap;
 
 import net.minecraft.core.Holder;
+import net.minecraft.core.HolderSet;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.MultifaceBlock;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.GenerationStep.Decoration;
 import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.feature.MultifaceGrowthFeature;
 import net.minecraft.world.level.levelgen.feature.OreFeature;
 import net.minecraft.world.level.levelgen.feature.RandomPatchFeature;
 import net.minecraft.world.level.levelgen.feature.configurations.*;
@@ -322,6 +326,26 @@ public class EndFeatures {
             ),
             5
     );
+    public static final BCLFeature<MultifaceGrowthFeature, MultifaceGrowthConfiguration> CRYSTAL_MOSS_COVER = BCLFeatureBuilder
+            .start(BetterEnd.makeID("crystal_moss_cover"), (MultifaceGrowthFeature) Feature.MULTIFACE_GROWTH)
+            .configuration(new MultifaceGrowthConfiguration(
+                    (MultifaceBlock) EndBlocks.CRYSTAL_MOSS_COVER,
+                    20,
+                    true,
+                    true,
+                    true,
+                    1.0F,
+                    HolderSet.direct(
+                            blockHolder(EndBlocks.CRYSTAL_MOSS),
+                            blockHolder(Blocks.END_STONE)
+                    )
+            ))
+            .build()
+            .place()
+            .countRange(16, 256)
+            .onEveryLayer(2)
+            .onlyInBiome()
+            .build();
     public static final BCLFeature<SinglePlantFeature, SinglePlantFeatureConfig> SHADOW_PLANT = registerVegetation(
             "shadow_plant",
             new SinglePlantFeatureConfig(EndBlocks.SHADOW_PLANT, 6),
@@ -1351,6 +1375,12 @@ public class EndFeatures {
             int count
     ) {
         return registerLayer(name, material.stone, radius, minY, maxY, count);
+    }
+
+    private static Holder<Block> blockHolder(Block block) {
+        return BuiltInRegistries.BLOCK.getHolderOrThrow(
+                ResourceKey.create(Registries.BLOCK, BuiltInRegistries.BLOCK.getKey(block))
+        );
     }
 
     public static void addBiomeFeatures(ResourceLocation id, Holder<Biome> biome) {
