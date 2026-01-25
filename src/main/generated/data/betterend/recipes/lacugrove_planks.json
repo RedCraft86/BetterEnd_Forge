@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    [
+      {
+        "item": "betterend:lacugrove_log"
+      },
+      {
+        "item": "betterend:lacugrove_bark"
+      },
+      {
+        "item": "betterend:lacugrove_stripped_log"
+      },
+      {
+        "item": "betterend:lacugrove_stripped_bark"
+      }
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "item": "betterend:lacugrove_planks"
+  }
+}

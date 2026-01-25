@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "betterend:violecite_tiles"
+    },
+    "P": {
+      "item": "minecraft:purpur_block"
+    }
+  },
+  "pattern": [
+    "#P",
+    "P#"
+  ],
+  "result": {
+    "count": 4,
+    "item": "betterend:missing_tile"
+  },
+  "show_notification": true
+}

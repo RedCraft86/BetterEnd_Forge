@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_stone_lanterns",
+  "key": {
+    "#": {
+      "item": "betterend:crystal_shards"
+    },
+    "S": []
+  },
+  "pattern": [
+    "S",
+    "#",
+    "S"
+  ],
+  "result": {
+    "item": "betterend:violecite_lantern"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    [
+      {
+        "item": "betterend:jellyshroom_log"
+      },
+      {
+        "item": "betterend:jellyshroom_bark"
+      },
+      {
+        "item": "betterend:jellyshroom_stripped_log"
+      },
+      {
+        "item": "betterend:jellyshroom_stripped_bark"
+      }
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "item": "betterend:jellyshroom_planks"
+  }
+}

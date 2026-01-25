@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "group": "sulphuric_rock_stonecutting",
+  "ingredient": [],
+  "result": "betterend:sulphuric_rock_tiles"
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pythadendron_log_pythadendron_bark_pyt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:pythadendron_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:pythadendron_bark"
+            ]
+          },
+          {
+            "items": [
+              "betterend:pythadendron_stripped_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:pythadendron_stripped_bark"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:pythadendron_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pythadendron_log_pythadendron_bark_pyt",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:pythadendron_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

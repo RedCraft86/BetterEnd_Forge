@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_pillar",
+  "key": {
+    "#": []
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "betterend:umbralith_pillar"
+  },
+  "show_notification": true
+}

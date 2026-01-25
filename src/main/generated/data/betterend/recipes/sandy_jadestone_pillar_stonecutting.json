@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "group": "sandy_jadestone_stonecutting",
+  "ingredient": [],
+  "result": "betterend:sandy_jadestone_pillar"
+}

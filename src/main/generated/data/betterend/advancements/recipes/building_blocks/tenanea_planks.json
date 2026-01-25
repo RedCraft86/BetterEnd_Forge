@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tenanea_log_tenanea_bark_tenanea_strip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:tenanea_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:tenanea_bark"
+            ]
+          },
+          {
+            "items": [
+              "betterend:tenanea_stripped_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:tenanea_stripped_bark"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:tenanea_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_tenanea_log_tenanea_bark_tenanea_strip",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:tenanea_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

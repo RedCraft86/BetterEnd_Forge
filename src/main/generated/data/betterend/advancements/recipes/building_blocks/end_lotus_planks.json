@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_end_lotus_log_end_lotus_bark_end_lotus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:end_lotus_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:end_lotus_bark"
+            ]
+          },
+          {
+            "items": [
+              "betterend:end_lotus_stripped_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:end_lotus_stripped_bark"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:end_lotus_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_end_lotus_log_end_lotus_bark_end_lotus",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:end_lotus_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

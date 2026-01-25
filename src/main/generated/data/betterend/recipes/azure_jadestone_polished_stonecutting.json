@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "group": "azure_jadestone_stonecutting",
+  "ingredient": [],
+  "result": "betterend:azure_jadestone_polished"
+}

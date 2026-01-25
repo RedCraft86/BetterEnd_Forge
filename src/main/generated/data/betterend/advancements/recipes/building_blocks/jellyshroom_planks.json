@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jellyshroom_log_jellyshroom_bark_jelly": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:jellyshroom_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:jellyshroom_bark"
+            ]
+          },
+          {
+            "items": [
+              "betterend:jellyshroom_stripped_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:jellyshroom_stripped_bark"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:jellyshroom_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_jellyshroom_log_jellyshroom_bark_jelly",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:jellyshroom_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

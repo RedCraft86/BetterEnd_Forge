@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    [
+      {
+        "item": "betterend:tenanea_log"
+      },
+      {
+        "item": "betterend:tenanea_bark"
+      },
+      {
+        "item": "betterend:tenanea_stripped_log"
+      },
+      {
+        "item": "betterend:tenanea_stripped_bark"
+      }
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "item": "betterend:tenanea_planks"
+  }
+}

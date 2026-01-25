@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_stone_plates",
+  "key": {
+    "#": []
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "betterend:sandy_jadestone_plate"
+  },
+  "show_notification": true
+}

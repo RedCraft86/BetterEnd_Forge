@@ -1,0 +1,53 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crystal_shards": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:crystal_shards"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:violecite_lantern"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_violecite_slab_violecite_bricks_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:air"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:air"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_violecite_slab_violecite_bricks_slab",
+      "has_crystal_shards",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:violecite_lantern"
+    ]
+  },
+  "sends_telemetry_event": false
+}

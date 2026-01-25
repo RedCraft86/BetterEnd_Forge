@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mossy_glowshroom_log_mossy_glowshroom_": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:mossy_glowshroom_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:mossy_glowshroom_bark"
+            ]
+          },
+          {
+            "items": [
+              "betterend:mossy_glowshroom_stripped_log"
+            ]
+          },
+          {
+            "items": [
+              "betterend:mossy_glowshroom_stripped_bark"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "betterend:mossy_glowshroom_planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mossy_glowshroom_log_mossy_glowshroom_",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "betterend:mossy_glowshroom_planks"
+    ]
+  },
+  "sends_telemetry_event": false
+}

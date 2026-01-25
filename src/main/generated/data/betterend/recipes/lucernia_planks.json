@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    [
+      {
+        "item": "betterend:lucernia_log"
+      },
+      {
+        "item": "betterend:lucernia_bark"
+      },
+      {
+        "item": "betterend:lucernia_stripped_log"
+      },
+      {
+        "item": "betterend:lucernia_stripped_bark"
+      }
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "item": "betterend:lucernia_planks"
+  }
+}

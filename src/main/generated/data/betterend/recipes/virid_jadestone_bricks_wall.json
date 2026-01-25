@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_wall",
+  "key": {
+    "#": []
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "betterend:virid_jadestone_bricks_wall"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "group": "virid_jadestone_stonecutting",
+  "ingredient": [],
+  "result": "betterend:virid_jadestone_pillar"
+}
