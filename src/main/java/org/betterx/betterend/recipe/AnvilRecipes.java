@@ -10,22 +10,25 @@ import net.minecraft.world.item.Tiers;
 
 public class AnvilRecipes {
     public static void register() {
+        final int ironToolLevel = Tiers.IRON.getLevel();
+        final int diamondToolLevel = Tiers.DIAMOND.getLevel();
+        final int netheriteToolLevel = Tiers.NETHERITE.getLevel();
+
         BCLRecipeBuilder.anvil(BetterEnd.makeID("ender_pearl_to_dust"), EndItems.ENDER_DUST)
                         .setPrimaryInputAndUnlock(Items.ENDER_PEARL)
-                        .setAnvilLevel(Tiers.IRON.getLevel())
-                        .setToolLevel(4)
+                        .setAnvilLevel(ironToolLevel)
+                        .setToolLevel(ironToolLevel)
                         .setDamage(5)
                         .build();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("ender_shard_to_dust"), EndItems.ENDER_DUST)
                         .setPrimaryInputAndUnlock(EndItems.ENDER_SHARD)
-
-                        .setAnvilLevel(Tiers.IRON.getLevel())
-                        .setToolLevel(0)
+                        .setAnvilLevel(ironToolLevel)
+                        .setToolLevel(ironToolLevel)
                         .setDamage(3)
                         .build();
 
         int anvilLevel = EndToolMaterial.AETERNIUM.getLevel();
-        int toolLevel = EndToolMaterial.AETERNIUM.getLevel();
+        int toolLevel = netheriteToolLevel;
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_axe_head"), EndItems.AETERNIUM_AXE_HEAD)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
@@ -59,7 +62,7 @@ public class AnvilRecipes {
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_sword_blade"), EndItems.AETERNIUM_SWORD_BLADE)
                         .setPrimaryInputAndUnlock(EndItems.AETERNIUM_INGOT)
                         .setAnvilLevel(anvilLevel)
-                        .setToolLevel(toolLevel)
+                        .setToolLevel(diamondToolLevel)
                         .setDamage(6)
                         .build();
         BCLRecipeBuilder.anvil(BetterEnd.makeID("aeternium_forged_plate"), EndItems.AETERNIUM_FORGED_PLATE)
