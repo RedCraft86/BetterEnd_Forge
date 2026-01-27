@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_block.minecraft.air": {
+    "has_block.betterend.flavolite": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:air"
+              "betterend:flavolite"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_block.minecraft.air",
+      "has_block.betterend.flavolite",
       "has_the_recipe"
     ]
   ],

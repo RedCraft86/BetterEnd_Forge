@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_bricks",
+  "key": {
+    "#": []
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "betterend:smaragdant_crystal_bricks"
+  },
+  "show_notification": true
+}

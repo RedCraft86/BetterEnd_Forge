@@ -135,7 +135,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "biome": "betterend:umbrella_jungle"
+            "biomes": "betterend:umbrella_jungle"
           }
         }
       ],
@@ -165,7 +165,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "biome": "betterend:lantern_woods"
+            "biomes": "betterend:lantern_woods"
           }
         }
       ],
@@ -195,7 +195,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "biome": "betterend:shadow_forest"
+            "biomes": "betterend:shadow_forest"
           }
         }
       ],
@@ -229,7 +229,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "biome": "betterend:chorus_forest"
+            "biomes": "betterend:chorus_forest"
           }
         }
       ],
@@ -263,7 +263,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "biome": "betterend:foggy_mushroomland"
+            "biomes": "betterend:foggy_mushroomland"
           }
         }
       ],

@@ -4,10 +4,10 @@ import org.betterx.bclib.api.v3.datagen.LootDropProvider;
 import org.betterx.bclib.registry.BaseRegistry;
 import org.betterx.betterend.BetterEnd;
 import org.betterx.betterend.registry.EndBlocks;
+import org.betterx.datagen.betterend.CompatLootTableProvider;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.data.loot.LootTableSubProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.BiConsumer;
 
-public class EndBlockLootTableProvider extends LootTableProvider {
+public class EndBlockLootTableProvider extends CompatLootTableProvider {
     public EndBlockLootTableProvider(PackOutput output) {
         super(
                 output,

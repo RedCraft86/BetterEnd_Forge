@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_block.minecraft.air": {
+    "has_block.betterend.sulphuric_rock": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:air"
+              "betterend:sulphuric_rock"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_block.minecraft.air",
+      "has_block.betterend.sulphuric_rock",
       "has_the_recipe"
     ]
   ],

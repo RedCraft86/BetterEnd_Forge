@@ -5,9 +5,9 @@ import org.betterx.betterend.registry.EndBlocks;
 import org.betterx.betterend.registry.EndItems;
 import org.betterx.betterend.registry.EndTemplates;
 import org.betterx.betterend.util.LootTableUtil;
+import org.betterx.datagen.betterend.CompatLootTableProvider;
 
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.data.loot.LootTableSubProvider;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.resources.ResourceLocation;
@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.BiConsumer;
 
-public class EndChestLootTableProvider extends LootTableProvider {
+public class EndChestLootTableProvider extends CompatLootTableProvider {
     public EndChestLootTableProvider(PackOutput output) {
         super(
                 output,

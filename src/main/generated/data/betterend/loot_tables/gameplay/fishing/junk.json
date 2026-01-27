@@ -30,7 +30,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biome": "betterend:sulphur_springs"
+                "biomes": "betterend:sulphur_springs"
               }
             }
           ],
@@ -45,25 +45,25 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:glowing_grasslands"
+                    "biomes": "betterend:glowing_grasslands"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:megalake"
+                    "biomes": "betterend:megalake"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:megalake_grove"
+                    "biomes": "betterend:megalake_grove"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:neon_oasis"
+                    "biomes": "betterend:neon_oasis"
                   }
                 }
               ]
@@ -80,31 +80,31 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:foggy_mushroomland"
+                    "biomes": "betterend:foggy_mushroomland"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:glowing_grasslands"
+                    "biomes": "betterend:glowing_grasslands"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:megalake"
+                    "biomes": "betterend:megalake"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:megalake_grove"
+                    "biomes": "betterend:megalake_grove"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:umbrella_jungle"
+                    "biomes": "betterend:umbrella_jungle"
                   }
                 }
               ]
@@ -121,25 +121,25 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:glowing_grasslands"
+                    "biomes": "betterend:glowing_grasslands"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:neon_oasis"
+                    "biomes": "betterend:neon_oasis"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:sulphur_springs"
+                    "biomes": "betterend:sulphur_springs"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:umbrella_jungle"
+                    "biomes": "betterend:umbrella_jungle"
                   }
                 }
               ]
@@ -156,19 +156,19 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:amber_land"
+                    "biomes": "betterend:amber_land"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:lantern_woods"
+                    "biomes": "betterend:lantern_woods"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:neon_oasis"
+                    "biomes": "betterend:neon_oasis"
                   }
                 }
               ]
@@ -185,19 +185,19 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:amber_land"
+                    "biomes": "betterend:amber_land"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:lantern_woods"
+                    "biomes": "betterend:lantern_woods"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:sulphur_springs"
+                    "biomes": "betterend:sulphur_springs"
                   }
                 }
               ]
@@ -214,13 +214,13 @@
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:chorus_forest"
+                    "biomes": "betterend:chorus_forest"
                   }
                 },
                 {
                   "condition": "minecraft:location_check",
                   "predicate": {
-                    "biome": "betterend:shadow_forest"
+                    "biomes": "betterend:shadow_forest"
                   }
                 }
               ]

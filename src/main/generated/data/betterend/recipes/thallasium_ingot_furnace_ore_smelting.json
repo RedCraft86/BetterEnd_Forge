@@ -3,6 +3,8 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.0,
-  "ingredient": [],
+  "ingredient": {
+    "item": "betterend:thallasium_ore"
+  },
   "result": "betterend:thallasium_ingot"
 }

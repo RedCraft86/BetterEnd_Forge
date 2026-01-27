@@ -139,10 +139,6 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Fireworks:{Flight:3b}}"
-            },
-            {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",

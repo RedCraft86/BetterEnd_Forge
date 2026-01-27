@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_block.minecraft.air": {
+    "has_block.betterend.violecite": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:air"
+              "betterend:violecite"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_block.minecraft.air",
+      "has_block.betterend.violecite",
       "has_the_recipe"
     ]
   ],

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_block.minecraft.air": {
+    "has_block.betterend.virid_jadestone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:air"
+              "betterend:virid_jadestone"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_block.minecraft.air",
+      "has_block.betterend.virid_jadestone",
       "has_the_recipe"
     ]
   ],

@@ -2,6 +2,8 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "group": "flavolite_stonecutting",
-  "ingredient": [],
+  "ingredient": {
+    "item": "betterend:flavolite"
+  },
   "result": "betterend:flavolite_tiles"
 }

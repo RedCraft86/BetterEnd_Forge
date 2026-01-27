@@ -3,7 +3,9 @@
   "category": "misc",
   "group": "end_stone_buttons",
   "ingredients": [
-    []
+    {
+      "item": "betterend:violecite"
+    }
   ],
   "result": {
     "item": "betterend:violecite_button"

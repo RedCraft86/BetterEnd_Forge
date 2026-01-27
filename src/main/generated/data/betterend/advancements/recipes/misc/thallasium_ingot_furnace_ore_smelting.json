@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_block.minecraft.air": {
+    "has_block.betterend.thallasium_ore": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:air"
+              "betterend:thallasium_ore"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_block.minecraft.air",
+      "has_block.betterend.thallasium_ore",
       "has_the_recipe"
     ]
   ],

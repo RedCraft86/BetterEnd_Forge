@@ -2,9 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "betterend:violecite_tiles"
-    },
+    "#": [
+      {
+        "item": "betterend:violecite"
+      },
+      {
+        "item": "betterend:violecite_bricks"
+      },
+      {
+        "item": "betterend:violecite_tiles"
+      }
+    ],
     "P": {
       "item": "minecraft:purpur_block"
     }

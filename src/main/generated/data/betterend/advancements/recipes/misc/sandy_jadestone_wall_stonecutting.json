@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_block.minecraft.air": {
+    "has_block.betterend.sandy_jadestone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:air"
+              "betterend:sandy_jadestone"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_block.minecraft.air",
+      "has_block.betterend.sandy_jadestone",
       "has_the_recipe"
     ]
   ],

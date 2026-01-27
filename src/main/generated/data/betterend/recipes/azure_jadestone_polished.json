@@ -3,7 +3,9 @@
   "category": "misc",
   "group": "end_tile",
   "key": {
-    "#": []
+    "#": {
+      "item": "betterend:azure_jadestone_bricks"
+    }
   },
   "pattern": [
     "##",

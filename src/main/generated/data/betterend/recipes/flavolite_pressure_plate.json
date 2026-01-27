@@ -3,7 +3,9 @@
   "category": "misc",
   "group": "end_stone_plates",
   "key": {
-    "#": []
+    "#": {
+      "item": "betterend:flavolite"
+    }
   },
   "pattern": [
     "##"

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_bricks",
+  "key": {
+    "#": {
+      "item": "betterend:umbralith"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "betterend:umbralith_bricks"
+  },
+  "show_notification": true
+}

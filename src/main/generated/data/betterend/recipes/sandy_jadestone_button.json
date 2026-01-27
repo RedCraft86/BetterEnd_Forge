@@ -3,7 +3,9 @@
   "category": "misc",
   "group": "end_stone_buttons",
   "ingredients": [
-    []
+    {
+      "item": "betterend:sandy_jadestone"
+    }
   ],
   "result": {
     "item": "betterend:sandy_jadestone_button"
