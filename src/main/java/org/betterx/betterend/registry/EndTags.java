@@ -88,7 +88,6 @@ public class EndTags {
                 EndBlocks.FLAVOLITE_RUNED_ETERNAL,
                 EndBlocks.FLAVOLITE_RUNED
         );
-        TagManager.ITEMS.add(CommonItemTags.IRON_INGOTS, EndBlocks.THALLASIUM.ingot);
 
         TagManager.ITEMS.add(ALLOYING_IRON, Items.IRON_ORE, Items.DEEPSLATE_IRON_ORE, Items.RAW_IRON);
         TagManager.ITEMS.add(ALLOYING_GOLD, Items.GOLD_ORE, Items.DEEPSLATE_GOLD_ORE, Items.RAW_GOLD);
