@@ -15,8 +15,8 @@
 	"biome.betterend.megalake": "Megalago",
 	"biome.betterend.crystal_mountains": "Montañas de Cristal",
 	
-	"entity.betterend.dragonfly": "Libélula",
-	"item.betterend.spawn_egg_dragonfly": "Huevo de Generación de Libélula",
+	"entity.betterend.dragonfly": "Libélula de Ender",
+	"item.betterend.spawn_egg_dragonfly": "Huevo de Generación de Libélula de Ender",
 	
 	"entity.betterend.end_slime": "Slime del End",
 	"item.betterend.spawn_egg_end_slime": "Huevo de Generación de Slime del End",
