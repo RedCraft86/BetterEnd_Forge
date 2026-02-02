@@ -101,7 +101,7 @@ public class LacugroveFeature extends DefaultFeature {
                                 BlocksHelper.setWithoutUpdate(
                                         world,
                                         mut,
-                                        y == top ? EndBlocks.LACUGROVE.getBark() : EndBlocks.LACUGROVE.getLog()
+                                        y == top ? EndBlocks.LACUGROVE.getBark() : EndBlocks.LACUGROVE.getBark()
                                 );
                             } else {
                                 break;
@@ -213,7 +213,7 @@ public class LacugroveFeature extends DefaultFeature {
 
         POST = (info) -> {
             if (EndBlocks.LACUGROVE.isTreeLog(info.getStateUp()) && EndBlocks.LACUGROVE.isTreeLog(info.getStateDown())) {
-                return EndBlocks.LACUGROVE.getLog().defaultBlockState();
+                return EndBlocks.LACUGROVE.getBark().defaultBlockState();
             }
             return info.getState();
         };
