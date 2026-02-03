@@ -69,13 +69,9 @@ public class MinecraftClientMixin {
                 ) < 250000) {
                     info.setReturnValue(Musics.END_BOSS);
                 } else {
-                    Music sound = this.level.getBiomeManager()
-                                            .getNoiseBiomeAtPosition(this.player.blockPosition())
-                                            .value()
-                                            .getBackgroundMusic()
-                                            .orElse(be_getOrCacheEndMusic());
-
-                    info.setReturnValue(sound);
+                    info.setReturnValue(this.level.getBiomeManager()
+                            .getNoiseBiomeAtPosition(this.player.blockPosition()).value()
+                            .getBackgroundMusic().orElse(be_getOrCacheEndMusic()));
                 }
                 info.cancel();
             }
