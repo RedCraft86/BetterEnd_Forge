@@ -14,23 +14,17 @@ import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 public class MixinPlugin implements IMixinConfigPlugin {
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    private static boolean containsMod(String id) {
-        return FMLLoader.getLoadingModList().getModFileById(id) != null;
+    private static boolean hasMod(String modId) {
+        return FMLLoader.getLoadingModList().getModFileById(modId) != null;
     }
 
     @Override
     public boolean shouldApplyMixin(String targetClass, String mixinClass) {
-        boolean shouldApply = true;
-
-        if (mixinClass.contains("BlockLionfishWorldGenMixin")) {
-            shouldApply = containsMod("lionfishapi");
-            if (shouldApply)
-            {
-                LOGGER.info("Stopping LionfishAPI's unused biome system from breaking BetterEnd's custom terrain gen.");
-            }
+        if (mixinClass.contains("BlockLionfishWorldGenMixin") && hasMod("lionfishapi")) {
+            LOGGER.info("Stopping LionfishAPI's unused biome system from breaking BetterEnd's custom terrain gen.");
+            return false;
         }
-
-        return shouldApply;
+        return true;
     }
 
     @Override
