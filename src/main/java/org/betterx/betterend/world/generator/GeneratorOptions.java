@@ -26,6 +26,7 @@ public class GeneratorOptions {
     private static boolean directSpikeHeight;
     private static int circleRadius = 1000;
     private static int circleRadiusSqr;
+    private static boolean blockLionfishAPI;
 
     public static void init() {
         biomeSizeCaves = Configs.GENERATOR_CONFIG.getInt("biomeMap", "biomeSizeCaves", 32);
@@ -37,6 +38,7 @@ public class GeneratorOptions {
         generateCentralIsland = Configs.GENERATOR_CONFIG.getBoolean("customGenerator", "generateCentralIsland", true);
         endCityFailChance = Configs.GENERATOR_CONFIG.getInt("customGenerator", "endCityFailChance", 5);
         generateObsidianPlatform = Configs.GENERATOR_CONFIG.getBooleanRoot("generateObsidianPlatform", true);
+        blockLionfishAPI = Configs.GENERATOR_CONFIG.getBooleanRoot("blockLionfishAPI", true);
         bigOptions = new LayerOptions(
                 "customGenerator.layers.bigIslands",
                 Configs.GENERATOR_CONFIG,
@@ -107,6 +109,10 @@ public class GeneratorOptions {
 
     public static boolean generateObsidianPlatform() {
         return generateObsidianPlatform;
+    }
+
+    public static boolean blockLionfishAPI() {
+        return blockLionfishAPI;
     }
 
     public static int getEndCityFailChance() {
