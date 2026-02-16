@@ -214,7 +214,7 @@ public class PythadendronTreeFeature extends DefaultFeature {
 
         POST = (info) -> {
             if (EndBlocks.PYTHADENDRON.isTreeLog(info.getStateUp()) && EndBlocks.PYTHADENDRON.isTreeLog(info.getStateDown())) {
-                return EndBlocks.PYTHADENDRON.getLog().defaultBlockState();
+                return EndBlocks.PYTHADENDRON.getBark().defaultBlockState();
             }
             return info.getState();
         };

@@ -222,7 +222,7 @@ public class DragonTreeFeature extends DefaultFeature {
 
         POST = (info) -> {
             if (EndBlocks.DRAGON_TREE.isTreeLog(info.getStateUp()) && EndBlocks.DRAGON_TREE.isTreeLog(info.getStateDown())) {
-                return EndBlocks.DRAGON_TREE.getLog().defaultBlockState();
+                return EndBlocks.DRAGON_TREE.getBark().defaultBlockState();
             }
             return info.getState();
         };

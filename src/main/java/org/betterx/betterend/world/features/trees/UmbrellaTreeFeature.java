@@ -105,7 +105,7 @@ public class UmbrellaTreeFeature extends DefaultFeature {
 
         sdf.setReplaceFunction(REPLACE).addPostProcess((info) -> {
             if (EndBlocks.UMBRELLA_TREE.isTreeLog(info.getStateUp()) && EndBlocks.UMBRELLA_TREE.isTreeLog(info.getStateDown())) {
-                return EndBlocks.UMBRELLA_TREE.getLog().defaultBlockState();
+                return EndBlocks.UMBRELLA_TREE.getBark().defaultBlockState();
             } else if (info.getState().equals(membrane)) {
                 Center min = centers.get(0);
                 double d = Double.MAX_VALUE;
